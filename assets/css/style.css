@@ -58,7 +58,7 @@ h1, h2 {
 
 .btn {
     width: 90px;
-    height: 45px;
+    height: 30px;
     border: 1px solid rgb(255, 255, 255);
     font-family: 'Open Sans', sans-serif;
     font-size: 60%;
@@ -103,3 +103,35 @@ h1, h2 {
     background: rgb(0, 0, 0);
   }
 
+  /* hero image */
+
+  #hero-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  #hero-image {
+      height: 600px;
+      width: 100%;
+      background: url(../images/hero-image.webp) no-repeat center center;
+
+
+      /* animates zoom effect on loading page */
+
+      animation-name: hero-zoom;
+      animation-duration: 10s;
+      animation-fill-mode: backwards;
+  }
+
+  /* creates the level of zoom for hero image */
+
+  @keyframes hero-zoom {
+    from{
+      transform: scale(1.1);
+    }
+
+    to{
+      transform: scale(1);
+    }
+  }
