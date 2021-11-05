@@ -113,16 +113,16 @@ h1, h2 {
   }
 
   #hero-image {
-      height: 500px;
-      width: 100%;
-      background: url(../images/hero-image.webp) no-repeat center center;
+    height: 500px;
+    width: 100%;
+    background: url(../images/hero-image.webp) no-repeat center center;
 
 
-      /* animates zoom effect on loading page */
+    /* animates zoom effect on loading page */
 
-      animation-name: hero-zoom;
-      animation-duration: 10s;
-      animation-fill-mode: backwards;
+    animation-name: hero-zoom;
+    animation-duration: 10s;
+    animation-fill-mode: backwards;
   }
 
   /* creates the level of zoom for hero image */
@@ -140,35 +140,53 @@ h1, h2 {
   /* text-video */
 
   #text-video {
-      height: 600px;
+    height: 600px;
   }
 
   #left-about {
-      padding-top: 30px;
-      width: 40%;
-      float: left;
-      background-color: red;
+    padding-top: 30px;
+    width: 40%;
+    float: left;
+    background-color: red;
   }
 
   #right-about {
-      padding-top: 30px;
-      width: 40%;
-      float: right;
-      background-color: greenyellow;
+    padding-top: 30px;
+    width: 40%;
+    float: right;
+    background-color: greenyellow;
   }
 
   hr {
-      border-top: 1px solid white;
-      width: 100%;
-      margin: 5px 0;
-
+    border-top: 1px solid white;
+    width: 100%;
+    margin: 5px 0;
   }
 
   .left-about-heading {
-      width: 90%;
-      float: right;
-      line-height: 20px;
-      clear: both;
-      margin-bottom: 50px;
-
+    width: 90%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
   }
+
+  .right-about-heading {
+    width: 90%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+  }
+
+  .right-about-heading h2 {
+      text-align: right;
+  }
+
+  .right-about-heading p {
+      text-align: right;
+  }
+
+  
+
+  
