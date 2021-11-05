@@ -178,48 +178,77 @@ h1, h2 {
   }
 
   .right-about-heading h2 {
-      text-align: right;
+    text-align: right;
   }
 
   .right-about-heading p {
-      text-align: right;
+    text-align: right;
   }
 
   #welcome {
-      text-align: center;
-      margin: 25px 0;
-      font-size: 280%;
+    text-align: center;
+    margin: 25px 0;
+    font-size: 280%;
   }
 
   /* videos */
 
   #videos {
-      padding-left: 5%;
-      padding-right: 5%;
-      height: 250px;
-      width: 100%;
-      margin: 0 auto;
+    padding-left: 5%;
+    padding-right: 5%;
+    height: 250px;
+    width: 100%;
+    margin: 0 auto;
   }
 
   #videos-container {
-      float: left;
-      width: 260px;
-      height: 200px;
-      border-style: solid;
-      border-color: white;
-      border-width: 3px;
-      margin: 0 auto;
-    }
+    float: left;
+    width: 260px;
+    height: 200px;
+    border-style: solid;
+    border-color: white;
+    border-width: 3px;
+    margin: 0 auto;
+  }
 
-    h4 {
-        color: inherit;
-        font-style: inherit;
-        text-align: center;
-        text-transform: uppercase;
-    }
+  h4 {
+    color: inherit;
+    font-style: inherit;
+    text-align: center;
+    text-transform: uppercase;
+  }
   video {
     width: 260px;
     height: 180px
+  }
+
+  /* footer */
+
+
+  footer{
+    height: 200px;
+    background-color: white;
+  }
+  
+  .social-networks {
+    text-align: center;
+  }
+  
+  .social-networks > li {
+    display: inline;
+    text-align: center;
+  }
+  
+  .social-networks i {
+    font-size: 25px;
+    margin-top: 5%;
+    color: rgb(0, 0, 0);
+  }
+  
+  .copyright {
+    text-align: center;
+    padding-top: 30px;
+    color: black;
   }
 
 
