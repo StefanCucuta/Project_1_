@@ -29,6 +29,7 @@ h1, h2 {
 #logo {
     float: left;
     font-size: 280%;
+    margin-left: 30px;
 }
 
 /* nav links */
@@ -106,13 +107,13 @@ h1, h2 {
   /* hero image */
 
   #hero-outer {
-    height: 600px;
+    height: 500px;
     width: 100%;
     overflow: hidden;
   }
 
   #hero-image {
-      height: 600px;
+      height: 500px;
       width: 100%;
       background: url(../images/hero-image.webp) no-repeat center center;
 
@@ -134,4 +135,24 @@ h1, h2 {
     to{
       transform: scale(1);
     }
+  }
+
+  /* text-video */
+
+  #text-video {
+      height: 600px;
+  }
+
+  #left-about {
+      padding-top: 30px;
+      width: 60%;
+      float: left;
+      background-color: red;
+  }
+
+  #right-about {
+      padding-top: 30px;
+      width: 40%;
+      float: right;
+      background-color: greenyellow;
   }
