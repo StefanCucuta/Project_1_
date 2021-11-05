@@ -140,21 +140,19 @@ h1, h2 {
   /* text-video */
 
   #text-video {
-    height: 600px;
+    height: 450px;
   }
 
   #left-about {
     padding-top: 30px;
-    width: 40%;
+    width: 45%;
     float: left;
-    background-color: red;
   }
 
   #right-about {
     padding-top: 30px;
-    width: 40%;
+    width: 45%;
     float: right;
-    background-color: greenyellow;
   }
 
   hr {
@@ -185,6 +183,34 @@ h1, h2 {
 
   .right-about-heading p {
       text-align: right;
+  }
+
+  #welcome {
+      text-align: center;
+      margin: 25px 0;
+      font-size: 280%;
+  }
+
+  #videos-container {
+      float: right;
+      width: 330px;
+      height: 200px;
+      padding: 2px;
+      border-style: solid;
+      border-color: white;
+      border-width: 3px;
+    }
+
+    h3 {
+        color: inherit;
+        font-style: inherit;
+        text-align: center;
+        text-transform: uppercase;
+    }
+  video {
+    position: relative;
+    width: 330px;
+    height: 200px
   }
 
   
