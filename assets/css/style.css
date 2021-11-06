@@ -303,24 +303,28 @@ iframe {
   box-sizing: border-box;
 }
 
-/* Sign Up */
+/* Sign Up html */
+
+/* form section */
 
 .form-section {
+  padding-top: 70px;
+  background: url(/assets/images/from.space.jpg) no-repeat center center;
   clear: left;
   text-align: center;
   font-style: italic;
   text-transform: uppercase;
-  background-color:green;
   background-size: cover;
   background-position: center;
   height: 700px;
 }
 
 .signup-form {
-  margin: 100px  25% 25%;
+  background: rgb(17, 17, 17 ,0.7);
+  margin: 100px 25% 25% 25%;
+  border-radius: 30px;
   color: rgb(255, 255, 255);
   max-width: 800px;
-  position: absolute;
   padding: 30px;
 }
 
