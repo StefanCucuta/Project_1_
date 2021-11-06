@@ -194,32 +194,25 @@ h1, h2 {
   /* videos */
 
   #videos {
-    padding-left: 5%;
-    padding-right: 5%;
-    height: 250px;
     width: 100%;
-    margin: 0 auto;
+    text-align: center;
+    padding-block: 10px;
   }
 
   #videos-container {
-    float: left;
-    width: 260px;
-    height: 200px;
+    width: 290px;
+    height: 210px;
     border-style: solid;
     border-color: white;
-    border-width: 3px;
-    margin: 0 auto;
+    border-width: 5px;
+    border-radius: 3%;
+    display: inline-block;
+    margin: 2%;
   }
 
-  h4 {
-    color: inherit;
-    font-style: inherit;
-    text-align: center;
-    text-transform: uppercase;
-  }
   video {
-    width: 260px;
-    height: 180px
+    width: 290px;
+    height: 190px
   }
 
   /* footer */
