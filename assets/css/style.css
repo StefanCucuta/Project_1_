@@ -244,6 +244,25 @@ footer {
   color: black;
 }
 
+/* about us html */
+
+#about {
+  height: 400px;
+  width: 100%;
+  background-color: red;
+  overflow: hidden;
+}
+
+#about h2 {
+  padding-top: 5%;
+  text-align: center;
+}
+
+#about p {
+  text-align: center;
+  padding-top: 1%;
+}
+
 
 
   
