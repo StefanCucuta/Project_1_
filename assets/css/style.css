@@ -439,7 +439,29 @@ iframe {
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 400px) {
+  #text {
+    width: 65%;
+    height: 600px;
+    margin: 0 auto;
+}
+
+  .signup-form {
+    margin: 0;
+    padding-top: 20%;
+}
+
+   #menu {
+    clear: left;
+    float: left;
+    text-align: center;
+}
+
+   .btn {
+     font-size: 50%;
+     width: 80px;
+   }
+}
 
   
 
