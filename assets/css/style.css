@@ -140,7 +140,7 @@ h1, h2 {
   /* text */
 
   #text {
-    height: 450px;
+    height: 400px;
   }
 
   #left-about {
@@ -217,32 +217,33 @@ h1, h2 {
 
   /* footer */
 
+footer {
+  height: 250px;
+  background-color: white;
+}
 
-  footer{
-    height: 200px;
-    background-color: white;
-  }
-  
-  .social-networks {
-    text-align: center;
-  }
-  
-  .social-networks > li {
-    display: inline;
-    text-align: center;
-  }
-  
-  .social-networks i {
-    font-size: 25px;
-    margin-top: 5%;
-    color: rgb(0, 0, 0);
-  }
-  
-  .copyright {
-    text-align: center;
-    padding-top: 30px;
-    color: black;
-  }
+.copyright {
+  text-align: center;
+  color: black;
+  font-style: inherit;
+  text-transform: uppercase;
+}
+
+.social-networks {
+  text-align: center;
+}
+
+.social-networks > li {
+  display: inline;
+}
+
+.social-networks i {
+  font-size: 200%;
+  margin: 1%;
+  padding: 3%;
+  color: black;
+}
+
 
 
   
