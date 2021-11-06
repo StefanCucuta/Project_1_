@@ -247,22 +247,61 @@ footer {
 /* about us html */
 
 #about {
-  height: 400px;
+  height: 560px;
   width: 100%;
-  background-color: red;
   overflow: hidden;
 }
 
 #about h2 {
   padding-top: 5%;
   text-align: center;
+  font-size: 200%;
 }
 
 #about p {
+  font-size: 150%;
+  letter-spacing: 3px;
+  padding-left: 10%;
+  padding-right: 10%;
   text-align: center;
   padding-top: 1%;
 }
 
+/* about us MAP */
+
+iframe {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 1680px;
+  height: 300px; 
+  border: 0;
+  margin: 0;
+}
+
+/* about us HTML - times */
+
+#times-title {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 200%;
+  padding-bottom: 30px;
+}
+
+#times {
+  width: 100%;
+  overflow: hidden;
+}
+
+#times div {
+  color: white;
+  width: 20%;
+  height: 150px;
+  float: left;
+  padding-top: 15px;
+  text-align: center;
+  border: 2px solid white;
+  box-sizing: border-box;
+}
 
 
   
