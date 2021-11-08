@@ -1,4 +1,4 @@
-Travel to space
+# Travel to space
 
 This website is designated for anyone who is over 18 years old and wants to travel in space.
 
