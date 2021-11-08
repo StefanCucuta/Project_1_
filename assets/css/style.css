@@ -531,13 +531,23 @@ iframe {
 
    #menu {
     clear: left;
-    float: left;
-    text-align: center;
+    background-color: #cbdf17;
 }
 
+   #meniu li {
+     margin: 0;
+     background-color: #ff0000;
+   }
+
+   #meniu, ul {
+     margin: 0;
+     background-color: rgb(20, 220, 160);
+   }
+
    .btn {
-     font-size: 45%;
-     width: 78px;
+     letter-spacing: 0;
+     font-size: 50%;
+     width: 100px;
    }
 
 
