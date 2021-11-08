@@ -1,108 +1,144 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Travel to Space
 
-Welcome Stefan Cucuta,
+This website is designated for anyone who is over 18 years old and is interested to spend an unforgetfull month in to space.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Users of the website will be able to travel to space and live there for a hole month. This will be and experience that it will never be forgoten.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+[Live DEMO](https://stefancucuta.github.io/project_1_/)
 
-## Gitpod Reminders
+[![Travel to space](https://github.com/MariusBujor/Project1_ci/blob/main/docs/preview.png)](https://mariusbujor.github.io/Project1_ci/)
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## Table of contents
+  - [Strategy](#strategy)
+    - [Business Goals](#business-goals)
+    - [User Needs](#user-needs)
+  - [Scope](#scope)
+    - [Features](#features)
+    - [User Stories](#user-stories)
+  - [Structure](#structure)
+  - [Skeleton](#skeleton)
+    - [Wireframes](#wireframes)
 
-`python3 -m http.server`
 
-A blue button should appear to click: _Make Public_,
+## Strategy
+### Business goals
+- main goal is to sell our product (rental cars)
+- is to reach adults that are looking for a short-term transportation
+- is to reach to people wishing for adventure (off-road)
+- is to reach to a certain niche of people 
 
-Another blue button should appear to click: _Open Browser_.
+### User Needs
+- to have the comfort of owning a short-term transportation when traveling
+- to have a list of vehicles to chose from based on budget
+- to book the desired vehicle in advance
+- to try new adventures using reliable off-road vehicles
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## Scope
+### Features
+#### Navigation bar
+- features on all 3 pages
+- is built mobile first making is fully responsive by displaying the pages under the logo
+- users can navigate through other pages easy on devices with different sizes.
+#### Hero video
+- displays a muted continues video provides the user insight using one of our  luxury car
+- the video has a white transparent layer to blend with the background 
+#### Why Us section
+- informs the user that choosing us he will receive good services at the best prices in Dublin
+What do we offer section
+- informs the user in regards our two categories of cars that we are renting ( Luxury and off Road)
+- two photos that are displaying those two categories (Luxury and Off Road) that are becoming background images of the text on mobile device
+#### Our cars section (landing page)
+- informs the user that we are up to date with the new technologies and cars 
+#### Our Cars page
+- the page will feature our two categories of cars with photos, car codes and prices 
+#### Manage booking page/form
+- the page will gives the user the choice to provide their details if they wish to book a car.
+#### Footer
+- the footer provides the user links to Facebook, Twitter and Instagram
+- the footer has the same colour as the navbar blended with the background colour 
 
-A blue button should appear to click: _Make Public_,
+### User Stories
+- As a user, I want...
+  - a clear understanding of the site main purpose.
+  - to be able to easily navigate throughout the website.
+- As a potential client, I want...
+  - to be able to see what cars are available.
+  - to be able to understand from the first view of the website what are the steps to rent a car.
+  - to be able to contact the business and also to see feedbacks accessing their social media links
 
-Another blue button should appear to click: _Open Browser_.
+## Structure
+The website is designed to be consistent, intuitive and learnable.
+- Interaction design
+  - For predictability, the interface interacts with user actions as the user expetcs. The scroll/swipe actions respond with the normal behaviour and buttons acts instantly on press.
+  - For consistency, the interface offers a subtle visual feedback to the user (on hover, focus and press of buttons and fields) which is similar throughout the application and helps the user to quickly learn the functionality.
+- Information architecture
+  - The content is organised and prioritised by importance from top to bottom and left to right.
+  - For consistency, the information is presented in 4 columns on large screens and individual or in 2 columns on small screens.
+  The information is structured mostly in nested lists.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+## Skeleton
+### Wireframes
+- Landing page: [mobile](https://github.com/MariusBujor/Project1_ci/blob/main/docs/wireframes/homepage_mobile.png), [desktop](https://github.com/MariusBujor/Project1_ci/blob/main/docs/wireframes/homepage_desktop.png)
+- Our Cars page: [mobile](https://github.com/MariusBujor/Project1_ci/blob/main/docs/wireframes/our_cars_mobile.png), [desktop](https://github.com/MariusBujor/Project1_ci/blob/main/docs/wireframes/our_cars_desktop.png)
+- Manage Booking page: [mobile](https://github.com/MariusBujor/Project1_ci/blob/main/docs/wireframes/booking_moile.png), [desktop](https://github.com/MariusBujor/Project1_ci/blob/main/docs/wireframes/booking_desktop.png)
+  
+## Testing 
 
-To log into the Heroku toolbelt CLI:
+### Functionality Testing
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+### Performance Test
+  ![Chrome Lighthouse](https://github.com/MariusBujor/Project1_ci/blob/main/docs/lighthouse.png)
+  
+  Performance, accessibility and good practices has been tested on Google Lighthouse on every page.
 
-------
+### Validator testing
 
-## Release History
+- HTML
+  
+  - No errors were returned when passing through the official [w3c html validator](https://validator.w3.org/).
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+- CSS
+  - No errors were found when passing through the official [w3c jigsaw validator](https://jigsaw.w3.org/css-validator/).
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+### Accessibility
+Accessibility was tested with both Chrome Lighthouse and [a11y contrast checker](https://color.a11y.com/) and no issues were found.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+### Compatibility
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+### Unfixed Bugs
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+### Deployment
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+- ### Git Hub Pages
+  
+The project was deployed to GitHub Pages using the following steps:
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+1 Log in to GitHub and locate the[ Fast Cars & Rent Easy Repository](https://github.com/MariusBujor/Project1_ci)
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+2 At the top of the Repository, locate and click the "Settings" Button on the menu
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+3 Scroll down the Settings page until you locate the "GitHub Pages" Section.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+4 Under "Source", click the dropdown called "None" and select "main" branch.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+5 The page will automatically refresh.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+6 Scroll back down through the page to locate the now published [Project1_ci](https://mariusbujor.github.io/Project1_ci/) in the "GitHub Pages" section.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+### Credits
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+   #### Content
+   - The text for the Home page was taken from Wikipedia Article 
+   - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/v5.15/icons?d=gallery&p=2&q=social)
+  
+  #### Media 
+  - [Yash Rao](https://www.pexels.com/@itsyashrao) for landing page's hero [Video](https://www.pexels.com/video/a-man-driving-a-red-ferrari-8443781/)
+  - [Pexels.com](https://www.pexels.com/) for all photos
+  
+  #### Code
+  - [Love Running Project](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode)  by Code Institute as a general resource.
+  - [W3Schools](https://www.w3schools.com/) as a general resource.
+  

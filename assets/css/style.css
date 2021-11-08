@@ -199,7 +199,7 @@ h1, h2 {
     padding-block: 10px;
   }
 
-  #videos-container {
+  .videos-container {
     width: 290px;
     height: 210px;
     border-style: solid;
@@ -487,10 +487,10 @@ iframe {
     margin: 0 auto;
 }
 
-#about {
-  width: 65%;
-  height: 100%;
-  margin: 0 auto;
+  #about {
+    width: 65%;
+    height: 100%;
+    margin: 0 auto;
 }
 
   .signup-form {
@@ -518,10 +518,10 @@ iframe {
     margin: 0 auto;
 }
 
-#about {
-  width: 65%;
-  height: 100%;
-  margin: 0 auto;
+  #about {
+    width: 65%;
+    height: 100%;
+    margin: 0 auto;
 }
 
   .signup-form {
