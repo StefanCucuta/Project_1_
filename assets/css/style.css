@@ -309,7 +309,7 @@ iframe {
 
 .form-section {
   padding-top: 70px;
-  background: url(/assets/images/from.space.jpg) no-repeat center center;
+  background: url(../images/from.space.jpg) no-repeat center center;
   clear: left;
   text-align: center;
   font-style: italic;
