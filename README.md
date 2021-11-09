@@ -18,3 +18,39 @@ Users of the website will be able to find that we offer the best services and al
   - [Structure](#structure)
   - [Skeleton](#skeleton)
     - [Wireframes](#wireframes)
+
+## Strategy
+### Business goals
+- main goal is to sell our space-flight dream trip
+- is to reach adults that are looking for an unforgettable space-trip
+- is to reach to people wishing for adventure (space)
+- is to reach to a certain niche of people 
+
+### User Needs
+- to have the possibility of choosing the flight destination and location where they wish to fly
+ - to have a list of prices to chose from based on budget
+- to book the desired trip in advance
+- to try new adventures using our extra services that we provide
+
+## Scope
+### Features
+#### Navigation bar
+- features on all 3 pages
+- is built mobile first making is fully responsive by displaying the pages under the logo
+- users can navigate through other pages easy on devices with different sizes.
+-  shows in the footer all social media and copyright info
+#### Hero Image
+- displays a zooming out image that will last 10 seconds.
+- The image will have a black background colour to back up in case the image does not load
+#### Why travel with Us section
+- informs the user that choosing us he will receive extra services 
+- four videos expoing the services that we offer extra
+#### About Us page
+- the page will inform user about who we are and what is our history and progress so far.
+- inform user about our head-quarters based in USA showing an google map.
+- shows to the user the prices , places, and time frames of where the space-ship will departure.
+#### Sign up /form
+- the page will gives the user the choice to provide their details if they wish to be contacted by our team
+#### Footer
+- the footer provides the user links to Facebook, Twitter, Youtube and Instagram
+- the footer has a white colour followed by a background colour black.
