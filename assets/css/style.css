@@ -71,7 +71,7 @@ h1, h2 {
     transition: 1s;
   }
   
-  .btn::before, .btn::after {
+.btn::before, .btn::after {
     position: absolute;
     background: rgb(0, 0, 0);
     z-index: -1;
@@ -79,55 +79,55 @@ h1, h2 {
     content: '';
   }
   
-  .btn::before {
+.btn::before {
     height: 50px;
     width: 150px;
   }
   
-  .btn::after {
+.btn::after {
     width: 150px;
     height: 50px;
   }
   
   
-  .btn:hover::before {
+.btn:hover::before {
     width: 0px;
     background: rgb(0, 0, 0);
   }
   
-  .btn:hover::after {
+.btn:hover::after {
     height: 0px;
     background: rgb(0, 0, 0);
   }
   
-  .btn:hover {
+.btn:hover {
     background: rgb(0, 0, 0);
   }
 
-  /* hero image */
+/* hero image */
 
-  #hero-outer {
+#hero-outer {
     height: 500px;
     width: 100%;
     overflow: hidden;
   }
 
-  #hero-image {
+#hero-image {
     height: 500px;
     width: 100%;
     background: url(../images/hero-image.webp) no-repeat center center;
 
 
-    /* animates zoom effect on loading page */
+/* animates zoom effect on loading page */
 
     animation-name: hero-zoom;
     animation-duration: 10s;
     animation-fill-mode: backwards;
   }
 
-  /* creates the level of zoom for hero image */
+/* creates the level of zoom for hero image */
 
-  @keyframes hero-zoom {
+@keyframes hero-zoom {
     from{
       transform: scale(1.1);
     }
@@ -137,31 +137,31 @@ h1, h2 {
     }
   }
 
-  /* text */
+/* text */
 
-  #text {
+#text {
     height: 400px;
   }
 
-  #left-about {
+#left-about {
     padding-top: 30px;
     width: 45%;
     float: left;
   }
 
-  #right-about {
+#right-about {
     padding-top: 30px;
     width: 45%;
     float: right;
   }
 
-   hr {
+hr {
     border-top: 1px solid white;
     width: 100%;
     margin: 5px 0;
   }
 
-  .left-about-heading {
+.left-about-heading {
     width: 90%;
     float: right;
     line-height: 20px;
@@ -169,7 +169,7 @@ h1, h2 {
     margin-bottom: 50px;
   }
 
-  .right-about-heading {
+.right-about-heading {
     width: 90%;
     float: left;
     line-height: 20px;
@@ -177,29 +177,29 @@ h1, h2 {
     margin-bottom: 50px;
   }
 
-  .right-about-heading h2 {
+.right-about-heading h2 {
     text-align: right;
   }
 
-  .right-about-heading p {
+.right-about-heading p {
     text-align: right;
   }
 
-  #welcome {
+#welcome {
     text-align: center;
     margin: 25px 0;
     font-size: 280%;
   }
 
-  /* videos */
+/* videos */
 
-  #videos {
+#videos {
     width: 100%;
     text-align: center;
     padding-block: 10px;
   }
 
-  .videos-container {
+.videos-container {
     width: 290px;
     height: 210px;
     border-style: solid;
@@ -210,34 +210,34 @@ h1, h2 {
     margin: 2%;
   }
 
-  video {
+video {
     width: 290px;
     height: 190px
   }
 
-  /* footer */
+/* footer */
 
-  footer {
+footer {
     height: 250px;
     background-color: white;
   }
 
-  .copyright {
+.copyright {
     text-align: center;
     color: black;
     font-style: inherit;
     text-transform: uppercase;
   }
 
-  .social-networks {
+.social-networks {
     text-align: center;
   }
 
-  .social-networks > li {
+.social-networks > li {
     display: inline;
   }
 
-  .social-networks i {
+.social-networks i {
     font-size: 200%;
     margin: 1%;
     padding: 3%;
@@ -246,30 +246,30 @@ h1, h2 {
 
 /* about us html */
 
-  #about {
+#about {
     height: 590px;
     width: 100%;
     overflow: hidden;
   }
 
-  #about h2 {
+#about h2 {
     padding-top: 5%;
     text-align: center;
     font-size: 200%;
   }
 
-  #about p {
-  font-size: 150%;
-  letter-spacing: 3px;
-  padding-left: 10%;
-  padding-right: 10%;
-  text-align: center;
-  padding-top: 1%;
+#about p {
+    font-size: 150%;
+    letter-spacing: 3px;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+    padding-top: 1%;
   }
 
 /* about us MAP */
 
-  iframe {
+iframe {
     padding-top: 10px;
     padding-bottom: 10px;
     width: 1680px;
@@ -280,19 +280,19 @@ h1, h2 {
 
 /* about us HTML - times */
 
-  #times-title {
+#times-title {
     text-align: center;
     text-transform: uppercase;
     font-size: 200%;
     padding-bottom: 30px;
   }
 
-  #times {
+#times {
     width: 100%;
     overflow: hidden;
   }
 
-  #times div {
+#times div {
     color: white;
     width: 20%;
     height: 150px;
@@ -307,7 +307,7 @@ h1, h2 {
 
 /* form section */
 
-  .form-section {
+.form-section {
     padding-top: 70px;
     background: url(../images/from.space.jpg) no-repeat center center;
     clear: left;
@@ -319,7 +319,7 @@ h1, h2 {
     height: 700px;
   }
 
-  .signup-form {
+.signup-form {
     background: rgb(17, 17, 17 ,0.7);
     margin: 100px 25% 25% 25%;
     border-radius: 30px;
@@ -328,12 +328,12 @@ h1, h2 {
     padding: 30px;
   }
 
-  .signup-form > h2 {
+.signup-form > h2 {
     color: #ffffff;
     margin-bottom: 50px;
   }
 
-  .text-input {
+.text-input {
     background: transparent;
     color: #f8f8f8;
     width: 100%;
@@ -343,11 +343,11 @@ h1, h2 {
     border-radius: 10px;
   }
 
-  .text-input:hover {
+.text-input:hover {
     border-color: rgb(255, 255, 255) 
   }
 
-  .join-button {
+.join-button {
     margin-top: 40px;
     margin-left: 41%;
     border-radius: 30px;
@@ -359,213 +359,212 @@ h1, h2 {
     display: block;
   }
 
-  .join-button:hover {
+.join-button:hover {
     background-color: #fafafa;
     color: #ff0000;
   }
 
   /* thank you form */
 
-  #thankyou {
+#thankyou {
     height: 830px;
     width: 100%;
     overflow: hidden;
   }
   
-  #thankyou h1 {
+#thankyou h1 {
     text-align: center;
     margin: 20%;
   }
 
 /* For larger to medium screens size from 1200px wide and down */
-  @media screen and (max-width: 1200px) {
-    #meniu {
-      clear: left;
-      float: left;
-      margin-left: 10px;
-      margin-bottom: 20px;
-      line-height: 25px;
+@media screen and (max-width: 1200px) {
+  #meniu {
+    clear: left;
+    float: left;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    line-height: 25px;
   }
 
-    #logo{
-      text-align: center;
+  #logo{
+    text-align: center;
   }
   
-    #text {
-      width: 65%;
-      height: 700px;
-      margin: 0 auto;
+  #text {
+    width: 65%;
+    height: 700px;
+    margin: 0 auto;
   }
 
-    #about {
-      width: 65%;
-      height: 100%;
-      margin: 0 auto;
+  #about {
+    width: 65%;
+    height: 100%;
+    margin: 0 auto;
   }
 
-    #welcome {
-      padding: 30px 0;
-      margin: 0;
+  #welcome {
+    padding: 30px 0;
+    margin: 0;
   }
 
-    #left-about, #right-about {
-      width: 100%;
-      float: left;
-      padding: 0;
+  #left-about, #right-about {
+    width: 100%;
+    float: left;
+    padding: 0;
   }
 
-    #times > div {
-      width: 100%;
-      clear: both;
-      height: 150px;
-      padding: 0;
+  #times > div {
+    width: 100%;
+    clear: both;
+    height: 150px;
+    padding: 0;
   }
 
-    .map-responsive{
-      overflow:hidden;
-      padding-bottom:56.25%;
-      position:relative;
-      height:0;
+  .map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
   }
 
-   .map-responsive iframe{
-      left:0;
-      top:0;
-      height:100%;
-      width:100%;
-      position:absolute;
+  .map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
   }
 }
 
 /* For medium screen sizes from 950px wide and down */
-  @media screen and (max-width: 950px) {
+@media screen and (max-width: 950px) {
 
-    #logo {
-      text-align: center;
+  #logo {
+    text-align: center;
   }
 
-    #menu {
-      clear: left;
-      float: left;
-      margin-left: 0;
-      margin-bottom: 20px;
-      line-height: 25px;
+  #menu {
+    clear: left;
+    float: left;
+    margin-left: 0;
+    margin-bottom: 20px;
+    line-height: 25px;
   }
 
-    #text {
-      width: 90%;
-      height: 700px;
-      margin: 0 auto;
+  #text {
+    width: 90%;
+    height: 700px;
+    margin: 0 auto;
   }
 
-    #about {
-      width: 65%;
-      height: 100%;
-      margin: 0 auto;
+  #about {
+    width: 65%;
+    height: 100%;
+    margin: 0 auto;
   }
 
-    .left-about-heading, .right-about-heading {
-      width: inherit;
+  .left-about-heading, .right-about-heading {
+    width: inherit;
   }
 
-    .left-about-heading h2, .right-about-heading h2 {
-      width: 100%;
-      text-align: center;
+  .left-about-heading h2, .right-about-heading h2 {
+    width: 100%;
+    text-align: center;
   }
 
-    .left-about-heading p, .right-about-heading p {
-      text-align: center;
-      padding: 0 20px;
-  }
-}
-
-  @media screen and (max-width: 400px) {
-    #text {
-      width: 65%;
-      height: 600px;
-      margin: 0 auto;
-  }
-
-    #about {
-      width: 65%;
-      height: 100%;
-      margin: 0 auto;
-  }
-
-    .signup-form {
-      margin: 0;
-      padding-top: 20%;
-  }
-
-    #menu {
-      clear: left;
-      float: left;
-      text-align: center;
-  }
-
-    .btn {
-      font-size: 50%;
-      width: 80px;
+  .left-about-heading p, .right-about-heading p {
+    text-align: center;
+    padding: 0 20px;
   }
 }
 
-  @media screen and (max-width: 320px) {
-
-    #text {
-      width: 65%;
-      height: 800px;
-      margin: 0 auto;
+@media screen and (max-width: 400px) {
+  #text {
+    width: 65%;
+    height: 600px;
+    margin: 0 auto;
   }
 
-    #about {
-      width: 65%;
-      height: 100%;
-      margin: 0 auto;
+  #about {
+    width: 65%;
+    height: 100%;
+    margin: 0 auto;
   }
 
-    #meniu {
-      clear: left;
-      float: left;
-      margin-left: px;
-      margin-bottom: 0;
-      line-height: 25px;
+  .signup-form {
+    margin: 0;
+    padding-top: 20%;
   }
 
-    #meniu li {
-      margin-right: 6px;
-      padding-left: 4px;
+  #menu {
+    clear: left;
+    float: left;
+    text-align: center;
   }
 
-    .btn::before, .btn::after{
-      float: right;
-      height: 10px;
-      width: 5px;
+  .btn {
+    font-size: 50%;
+    width: 80px;
+  }
+}
 
+@media screen and (max-width: 320px) {
+
+  #text {
+    width: 65%;
+    height: 800px;
+    margin: 0 auto;
   }
 
-    .signup-form {
-      margin: 0;
-      padding-top: 20%;
+  #about {
+    width: 65%;
+    height: 100%;
+    margin: 0 auto;
   }
 
-    .btn {
-      letter-spacing: 0;
-      font-size: 50%;
-      width: 90px;
+  #meniu {
+    clear: left;
+    float: left;
+    margin-left: px;
+    margin-bottom: 0;
+    line-height: 25px;
   }
 
-    #about p {
-      font-size: 90%;
-      letter-spacing: 0px;
-      padding-left: 10%;
-      padding-right: 10%;
-      text-align: center;
-      padding-top: 1%;
+  #meniu li {
+    margin-right: 6px;
+    padding-left: 4px;
   }
 
-    #logo {
-      margin-top: 30px;
-      margin-left: 0px;
+  .btn::before, .btn::after{
+    float: right;
+    height: 10px;
+    width: 5px;
+  }
+
+  .signup-form {
+    margin: 0;
+    padding-top: 20%;
+  }
+
+  .btn {
+    letter-spacing: 0;
+    font-size: 50%;
+    width: 90px;
+  }
+
+  #about p {
+    font-size: 90%;
+    letter-spacing: 0px;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+    padding-top: 1%;
+  }
+
+  #logo {
+    margin-top: 30px;
+    margin-left: 0px;
   }
 }
 
