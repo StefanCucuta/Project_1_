@@ -8,7 +8,6 @@ Users of the website will be able to find that we offer the best services and al
 
 [![Travel To Space](https://StefanCucuta.github.io/project_1_/docs/preview.png)](https://stefancucuta.github.io/project_1_/)
 
-
 ## Table of contents
   - [Strategy](#strategy)
     - [Business Goals](#business-goals)
