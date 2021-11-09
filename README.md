@@ -88,7 +88,7 @@ The website is designed to be consistent, intuitive and learnable.
 ### Performance Test
   ![Chrome Lighthouse](https://StefanCucuta.github.io/project_1_/docs/lighthouse.png)
   
-  Performance, accessibility and good practices has been tested on Google Lighthouse on every page.
+  Performance, accessibility and good practices has been tested on Google Lighthouse .
 
 ### Validator testing
 
