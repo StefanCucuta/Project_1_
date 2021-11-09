@@ -369,7 +369,7 @@ iframe {
   #meniu {
     clear: left;
     float: left;
-    margin-left: 30px;
+    margin-left: 10px;
     margin-bottom: 20px;
     line-height: 25px;
   }
@@ -528,18 +528,6 @@ iframe {
     margin: 0;
     padding-top: 20%;
 }
-
-   #menu {
-    clear: left;
-}
-
-   #meniu li {
-     margin: 0;
-   }
-
-   #meniu, ul {
-     margin: 0;
-   }
 
    .btn {
      letter-spacing: 0;
