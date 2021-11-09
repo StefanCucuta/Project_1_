@@ -54,3 +54,22 @@ Users of the website will be able to find that we offer the best services and al
 #### Footer
 - the footer provides the user links to Facebook, Twitter, Youtube and Instagram
 - the footer has a white colour followed by a background colour black.
+
+### User Stories
+- As a user, I want...
+  - a clear understanding of the site main purpose.
+  - to be able to easily navigate throughout the website.
+  - few colours in order to make me understand the website better.
+- As a potential client, I want...
+  - to be able to see what services are available.
+  - to be able to understand from the first view of the website what are the steps to sign in.
+  - to be able to contact the business and also to see feedbacks accessing their social media links.
+
+  ## Structure
+The website is designed to be consistent, intuitive and learnable.
+- Interaction design
+  - For predictability, the interface interacts with user actions as the user expects. The scroll/swipe actions respond with the normal behaviour and buttons acts instantly on press.
+  - For consistency, the interface offers a subtle visual feedback to the user (on hover, focus and press of buttons and fields) which is similar throughout the application and helps the user to quickly learn the functionality.
+- Information architecture
+  - The content is organised and prioritised by importance from top to bottom and left to right.
+  - The information is structured mostly in nested lists.
