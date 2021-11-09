@@ -447,7 +447,7 @@ iframe {
   #menu {
       clear: left;
       float: left;
-      margin-left: 30px;
+      margin-left: 0;
       margin-bottom: 20px;
       line-height: 25px;
   }
@@ -512,22 +512,23 @@ iframe {
 }
 
 @media screen and (max-width: 320px) {
+
   #text {
     width: 65%;
     height: 800px;
     margin: 0 auto;
-}
+ }
 
   #about {
     width: 65%;
     height: 100%;
     margin: 0 auto;
-}
+ }
 
   .signup-form {
     margin: 0;
     padding-top: 20%;
-}
+ }
 
    .btn {
      letter-spacing: 0;
