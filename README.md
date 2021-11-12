@@ -76,9 +76,9 @@ The website is designed to be consistent, intuitive and learnable.
 
   ## Skeleton
 ### Wireframes
-- Landing page: [mobile](https://StefanCucuta.github.io/project_1_/docs/wireframes/1mobile-home.png), [desktop] (https://StefanCucuta.github.io/project_1_/docs/wireframes/1desktop-home.png)
-- Our Cars page: [mobile](https://StefanCucuta.github.io/project_1_/docs/wireframes/2mobile-aboutus.png), [desktop] (https://StefanCucuta.github.io/project_1_/docs/wireframes/2desktop-aboutus.png)
-- Manage Booking page:[mobile](https://StefanCucuta.github.io/project_1_/docs/wireframes/3mobile-signup.png), [desktop] (https://StefanCucuta.github.io/project_1_/docs/wireframes/3desktop-signup.png)
+- Landing page: [mobile](https://StefanCucuta.github.io/project_1_/docs/wireframes/1mobile-home.png), [desktop](https://StefanCucuta.github.io/project_1_/docs/wireframes/1desktop-home.png)
+- Our Cars page: [mobile](https://StefanCucuta.github.io/project_1_/docs/wireframes/2mobile-aboutus.png), [desktop](https://StefanCucuta.github.io/project_1_/docs/wireframes/2desktop-aboutus.png)
+- Manage Booking page:[mobile](https://StefanCucuta.github.io/project_1_/docs/wireframes/3mobile-signup.png), [desktop](https://StefanCucuta.github.io/project_1_/docs/wireframes/3desktop-signup.png)
 - Structure : [Structure](https://StefanCucuta.github.io/project_1_/docs/wireframes/Structure.png)
   
 ## Testing 
