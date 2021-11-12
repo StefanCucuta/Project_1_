@@ -134,8 +134,8 @@ The project was deployed to GitHub Pages using the following steps:
    - The icons in the footer were taken from [Font Awesome]
   #### Media 
   - [Pexels.com](https://www.pexels.com/) for all photos
-  - [Wireframes] (https://balsamiq.cloud/) for all Wireframes
-  - [Shutterstock.com] (https://www.shutterstock.com/) for all videos
+  - [Wireframes](https://balsamiq.cloud/) for all Wireframes
+  - [Shutterstock.com](https://www.shutterstock.com/) for all videos
   
   #### Code
   - [SpaceX](https://https://www.spacex.com/)  by SpaceX as a general resource.
