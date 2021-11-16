@@ -18,6 +18,7 @@ Users of the website will be able to find that we offer the best services and al
   - [Structure](#structure)
   - [Skeleton](#skeleton)
     - [Wireframes](#wireframes)
+    - [Technology](#technology)
 
 ## Strategy
 ### Business goals
@@ -142,4 +143,30 @@ The project was deployed to GitHub Pages using the following steps:
   - [Love Running Project](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode)  by Code Institute as a general resource.
   - [W3Schools](https://www.w3schools.com/) as a general resource.
   
+### - Technology
+
+### HTML5
+* As a structure language.
+
+### CSS
+* As a style language.
+
+### Font Awesome
+* As an icon library for a social links.
+
+### Google fonts
+* As a font resource.
+
+### GitHub
+* As a software hosting platform to keep project in a remote location.
+
+### Git
+* As a version-control system tracking.
+
+### Gitpod
+* As a development hosting platform.
+
+### Wireframe.cc
+* As a wireframing tool.
+
 
