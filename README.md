@@ -145,28 +145,25 @@ The project was deployed to GitHub Pages using the following steps:
   
 ### - Technology
 
-### HTML5
+## HTML5
 * As a structure language.
 
-### CSS
+## CSS
 * As a style language.
 
-### Font Awesome
+## Font Awesome
 * As an icon library for a social links.
 
-### Google fonts
+## Google fonts
 * As a font resource.
 
-### GitHub
+## GitHub
 * As a software hosting platform to keep project in a remote location.
 
-### Git
-* As a version-control system tracking.
-
-### Gitpod
+## Gitpod
 * As a development hosting platform.
 
-### Wireframe.cc
+## Wireframe.cc
 * As a wireframing tool.
 
 
