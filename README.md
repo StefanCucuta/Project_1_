@@ -57,14 +57,21 @@ Users of the website will be able to find that we offer the best services and al
 - the footer has a white colour followed by a background colour black.
 
 ### User Stories
-- As a user, I want...
-  - a clear understanding of the site main purpose.
-  - to be able to easily navigate throughout the website.
-  - few colours in order to make me understand the website better.
-- As a potential client, I want...
-  - to be able to see what services are available.
-  - to be able to understand from the first view of the website what are the steps to sign in.
-  - to be able to contact the business and also to see feedbacks accessing their social media links.
+
+- As a business owner:
+  - I would like to present myself and my offer on the website clearly to potential customers.
+  - I need to make sure that my current and new customers will find a professional help with travel in to the space.
+  - I want my customers to be able to learn how to use my website intuitively and easily.
+  - I would like to build and maintain relationship with potential and current customers by alow them to use the Sign Up form.
+
+- As a new customer:
+  - I wish to find oportuneties for traveling in to the space.
+  - I would like to contact the service by using a Sign up form in order to show my interest.
+  - I want to join in to the next posible flight to space.
+- As a returning customer:
+  - I need to contact the service provider in order to have another unforgetfull experice.
+  - I would like to check timetable for the next available flight, price and location.
+  - I want to show my friend a location of where i have been and what acctivities I have been doing there.
 
   ## Structure
 The website is designed to be consistent, intuitive and learnable.
