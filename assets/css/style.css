@@ -489,6 +489,14 @@ iframe {
   footer {
     height: 110%;
   }
+
+  #hero-outer, #hero-image {
+    height: 200px;
+  }
+
+  #meniu, #logo {
+    line-height: 100%;
+  }
 }
 
 @media screen and (max-width: 450px) {
