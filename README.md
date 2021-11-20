@@ -137,7 +137,7 @@ The project was deployed to GitHub Pages using the following steps:
 
 To run localy:
 
-1 Log in to GitHub and click on repository to download ([Project 1](https://stefancucuta.github.io/project_1_/))
+1 Log in to GitHub and click on repository to download ([Project_1_](https://stefancucuta.github.io/project_1_/))
 
 2 select `Code` and click Download the ZIP file.
 
