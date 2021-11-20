@@ -135,6 +135,11 @@ The project was deployed to GitHub Pages using the following steps:
 
 6 Scroll back down through the page to locate the now published [Project_1_](https://stefancucuta.github.io/project_1_/) in the "GitHub Pages" section.
 
+To run localy:
+1Log in to GitHub and click on repository to download ([MP1](https://stefancucuta.github.io/project_1_/))
+2 select `Code` and click Download the ZIP file.
+3 after download you can extract the file and use it in your local environment 
+
 ### Credits
 
    #### Content
